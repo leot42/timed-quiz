@@ -1,0 +1,48 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+header {
+    display: grid;
+    background-color: blue;
+    grid-auto-rows: max-content;
+    grid-template-columns: 2fr 5fr 2fr;
+    grid-template-areas: 
+    "high-score empty-space timer";
+}
+
+main {
+    display: grid;
+    height: 500px;
+    background-color: grey;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+    grid-template-areas: 
+            "side-l main-a side-r"
+            "side-l main-b side-r"
+            "side-l main-c side-r";
+    /* grid-template-rows: 2fr 5fr 2fr;  */
+            
+}
+
+.primary-content {
+    grid-area: main-a;
+    
+}
+
+.secondary-content {
+    grid-area: main-b;
+}
+
+.tertiry-content {
+    grid-area: main-c;
+}
+
+#timer {
+    grid-area: timer;
+}
+
+#highScore {
+    grid-area: high-score;
+}
+

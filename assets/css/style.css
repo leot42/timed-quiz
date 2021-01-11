@@ -4,14 +4,81 @@
 
 header {
     display: grid;
-    background-color: blue;
+    background-color: white;
     grid-auto-rows: max-content;
     grid-template-columns: 2fr 5fr 2fr;
     grid-template-areas: 
     "high-score empty-space timer";
 }
 
+.button {
+    background-color: indigo;
+    color: white;
+    border-radius: 15px;
+    /* justify-self: center; */
+    
+}
+
 main {
+    display: grid;
+    height: 500px;
+    background-color: grey;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+    grid-template-areas: 
+            "side-l main-a side-r"
+            "side-l main-b side-r"
+            "side-l main-c side-r";
+    /* grid-template-rows: 2fr 5fr 2fr;  */
+            
+}
+
+.intro-page {
+    display: grid;
+    height: 500px;
+    background-color: grey;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 1fr 2fr 1fr ;
+    grid-template-areas: 
+            "side-l main-a side-r"
+            "side-l main-b side-r"
+            "side-l main-c side-r";
+    /* grid-template-rows: 2fr 5fr 2fr;  */
+}
+
+.intro-page > .secondary-content {
+    background-color: red;
+}
+
+.question-page {
+    display: grid;
+    height: 500px;
+    background-color: grey;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+    grid-template-areas: 
+            "side-l main-a side-r"
+            "side-l main-b side-r"
+            "side-l main-c side-r";
+    /* grid-template-rows: 2fr 5fr 2fr;  */
+            
+}
+
+.test-complete-page {
+    display: grid;
+    height: 500px;
+    background-color: grey;
+    grid-template-columns: 5fr 5fr 5fr;
+    grid-template-rows: 1fr 5fr 1fr ;
+    grid-template-areas: 
+            "side-l main-a side-r"
+            "side-l main-b side-r"
+            "side-l main-c side-r";
+    /* grid-template-rows: 2fr 5fr 2fr;  */
+            
+}
+
+.high-score-page {
     display: grid;
     height: 500px;
     background-color: grey;
@@ -32,9 +99,11 @@ main {
 
 .secondary-content {
     grid-area: main-b;
+    justify-items: center;
+
 }
 
-.tertiry-content {
+.tertiary-content {
     grid-area: main-c;
 }
 

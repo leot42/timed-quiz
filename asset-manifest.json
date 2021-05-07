@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/timed-quiz/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/timed-quiz/static/js/main.82d3c5db.chunk.js",
+    "main.js.map": "/timed-quiz/static/js/main.82d3c5db.chunk.js.map",
+    "runtime-main.js": "/timed-quiz/static/js/runtime-main.6c27d8a3.js",
+    "runtime-main.js.map": "/timed-quiz/static/js/runtime-main.6c27d8a3.js.map",
+    "static/js/2.513514bb.chunk.js": "/timed-quiz/static/js/2.513514bb.chunk.js",
+    "static/js/2.513514bb.chunk.js.map": "/timed-quiz/static/js/2.513514bb.chunk.js.map",
+    "static/js/3.16ec3c71.chunk.js": "/timed-quiz/static/js/3.16ec3c71.chunk.js",
+    "static/js/3.16ec3c71.chunk.js.map": "/timed-quiz/static/js/3.16ec3c71.chunk.js.map",
+    "index.html": "/timed-quiz/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/timed-quiz/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.513514bb.chunk.js.LICENSE.txt": "/timed-quiz/static/js/2.513514bb.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/timed-quiz/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6c27d8a3.js",
+    "static/js/2.513514bb.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.82d3c5db.chunk.js"
+  ]
+}
